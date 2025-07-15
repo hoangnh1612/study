@@ -1,0 +1,2 @@
+Focus on the process of object creation or problems related to object creation.
+System must independent of how its object are created, composed and represented.

@@ -1,0 +1,3 @@
+Aim: To write code more structured, manageable, and scalable. 
+Design patterns provide standard termiology but specific to particular scenarios and problems.
+Design patterns are templating and blueprinting. 
