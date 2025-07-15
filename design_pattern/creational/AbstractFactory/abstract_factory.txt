@@ -1,0 +1,6 @@
+Abstract factory: 
+
+Concrete factory:
+Abstract product:
+Concrete product:
+Client: 
