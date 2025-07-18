@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.6)
 add_subdirectory(factory)
 add_subdirectory(AbstractFactory)
 add_subdirectory(Singleton)
+add_subdirectory(Prototype)
