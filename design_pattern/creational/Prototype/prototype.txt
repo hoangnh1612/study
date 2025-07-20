@@ -1,0 +1,15 @@
+Enable the creation of new obj by copying existing object.
+Hide the complexity of making new instances from the client.
+-> Use clone method in base class.
+
+Prototype interface: 
+-Define the method for cloning objects.
+-Include clone method that concrete prototype will implement
+
+Concrete prototype:
+-Implement the prototype interface
+-Details how cloning should work
+
+Client: 
+-Request new objec creation
+
