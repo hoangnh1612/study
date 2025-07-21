@@ -1,2 +1,4 @@
 design_pattern/creational/build/
 design_pattern/structural/build/
+mechanism/ThreadPool/build/
+mechanism/SigSlot/build/
