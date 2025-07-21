@@ -1,0 +1,4 @@
+Product:
+- Object that pattern is responsible to construct
+- Consist multiple of components, structure bary based on the implementation
+- Typically a class with attributes representing the part that the builder construct
