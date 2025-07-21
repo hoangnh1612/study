@@ -1,39 +1,44 @@
 #include "HandleMainLoop.h"
 #include "Slot.h"
 #include "Signal.h"
-#include "SignalSlotBase.h" 
 #include <iostream>
 #include <thread>
 #include <chrono>
 #include <string>
 
+struct CustomData
+{
+    int id;
+    std::string name;
+};
 
-void signal(Signal<double> &s)
+void signal(Signal<CustomData> &s)
 {
     std::cout << "Start function" << std::endl;
     std::this_thread::sleep_for(std::chrono::seconds(5));
     std::cout << "Signal 1 emitted" << std::endl;
-    s.emit(3.52);
+    CustomData data1{1, "Data1"};
+    s.emit(data1);
     std::this_thread::sleep_for(std::chrono::seconds(5));
 
 }
 
-void slotFunction(double value) {
-    std::cout << "Slot triggered with value: " << value << std::endl;
+void slotFunction(CustomData value) {
+    std::cout << "Slot triggered with value: " << value.id<<" " <<value.name<< std::endl;
 }
 
-void anotherSlotFunction(double value) {
-    std::cout << "Another slot triggered with value: " << value << std::endl;
+void anotherSlotFunction(CustomData value) {
+    std::cout << "Another slot triggered with value: " << value.id << std::endl;
 }
 
 
 int main() {
     HandleMainLoop mainLoop;
-    Signal<double> signal1;
+    Signal<CustomData> signal1;
 
-    std::vector<Slot<double>> slotPool;
-    Slot<double> mySlot(slotFunction, &mainLoop, Auto);
-    Slot<double> anotherSlot(anotherSlotFunction, &mainLoop, Auto);
+    std::vector<Slot<CustomData>> slotPool;
+    Slot<CustomData> mySlot(slotFunction, &mainLoop, Auto);
+    Slot<CustomData> anotherSlot(anotherSlotFunction, &mainLoop, Auto);
     slotPool.push_back(mySlot);
     slotPool.push_back(anotherSlot);
 
