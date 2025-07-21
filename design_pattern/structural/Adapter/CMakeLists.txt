@@ -1,0 +1,1 @@
+add_executable(adapter_main main.cpp)
