@@ -69,5 +69,6 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "ranges": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/admin11/study/mechanism/PubSub"
 }
