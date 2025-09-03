@@ -1,0 +1,4 @@
+Allow behavior to be added to object dynamically, without affecting the behavior of other object from the same class 
+
+Example: Video Streaming Platform with additionall features like subtitles, language, quality
+options, audio enhancements. 
