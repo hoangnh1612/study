@@ -5,6 +5,7 @@
 #include <thread>
 #include <chrono>
 #include <string>
+#include "DefinedMacro.h"
 
 struct CustomData
 {
@@ -30,6 +31,7 @@ void slotFunction(CustomData value) {
 void anotherSlotFunction(CustomData value) {
     std::cout << "Another slot triggered with value: " << value.id << std::endl;
 }
+
 
 
 int main() {
