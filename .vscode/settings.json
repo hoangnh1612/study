@@ -68,7 +68,10 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "csignal": "cpp",
+        "any": "cpp",
+        "future": "cpp"
     },
     "cmake.sourceDirectory": "/home/admin11/study/mechanism/PubSub"
 }

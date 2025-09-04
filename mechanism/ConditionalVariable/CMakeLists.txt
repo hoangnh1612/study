@@ -1,0 +1,1 @@
+add_executable(cv_main main.cpp)

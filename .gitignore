@@ -3,3 +3,6 @@ design_pattern/structural/build/
 mechanism/ThreadPool/build/
 mechanism/SigSlot/build/
 mechanism/PubSub/build/
+build/
+mechanism/ConditionalVariable/build/
+mechanism/SimpleSigSlot/build/
