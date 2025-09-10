@@ -11,3 +11,6 @@ practice/Worker/build/
 mechanism/PubSub/build/
 practice/Pool/build/
 practice/RAII/build/
+build/
+mechanism/ConditionalVariable/build/
+mechanism/SimpleSigSlot/build/

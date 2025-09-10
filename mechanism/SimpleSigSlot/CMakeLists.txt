@@ -1,0 +1,1 @@
+add_executable(ss_main main.cpp)
