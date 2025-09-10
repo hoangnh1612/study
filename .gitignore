@@ -9,3 +9,5 @@ practice/Functional/build/
 practice/SharedResource/build/
 practice/Worker/build/
 mechanism/PubSub/build/
+practice/Pool/build/
+practice/RAII/build/
