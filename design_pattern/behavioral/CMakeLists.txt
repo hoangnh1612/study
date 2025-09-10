@@ -1,0 +1,3 @@
+add_subdirectory(ChainResponsible)
+add_subdirectory(Command)
+add_subdirectory(Interpretion)

@@ -1,0 +1,1 @@
+add_executable(command_main main.cpp)
