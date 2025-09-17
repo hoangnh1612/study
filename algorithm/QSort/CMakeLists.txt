@@ -1,0 +1,1 @@
+add_executable(qsort_main main.cpp)

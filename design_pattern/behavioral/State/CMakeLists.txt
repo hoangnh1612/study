@@ -1,0 +1,1 @@
+add_executable(state_main main.cpp)

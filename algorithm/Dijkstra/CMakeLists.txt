@@ -1,0 +1,1 @@
+add_executable(dijkstra_main main.cpp)
